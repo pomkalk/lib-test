@@ -1,0 +1,15 @@
+[build-dependencies]
+toml = "0.8.14"
+tonic-build = "0.11.0"
+
+[dependencies]
+prost = "0.12.6"
+tonic = "0.11.0"
+
+[features]
+greeter = []
+
+[package]
+edition = "2021"
+name = "lib-test"
+version = "0.1.0"

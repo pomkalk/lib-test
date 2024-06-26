@@ -1,0 +1,8 @@
+syntax = "proto3";
+package greeter;
+
+import "models.proto";
+
+service Greeter {
+  rpc SayHello(HelloRequest) returns (HelloResponse) {};
+}
